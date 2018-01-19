@@ -26,7 +26,7 @@ namespace UnityHelper
 
     public UnityContainerExtension(IUnityContainer container)
     {
-      this.Instance = container;
+        Instance = container;
     }
 
     public void FinalizeExtension()
